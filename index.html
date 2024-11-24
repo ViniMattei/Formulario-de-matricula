@@ -18,11 +18,11 @@
       <main>
         <div class="main-container">
           <div class="back">
-            <img src="/assets/icons/arrow-left-02.svg" alt="icons de voltar" />
+            <img src="assets/icons/arrow-left-02.svg" alt="Ícone de voltar" />
             <span>Voltar</span>
           </div>
 
-          <h1>Formulario de matrícula</h1>
+          <h1>Formulário de matrícula</h1>
           <p>
             Preencha os dados abaixo para matricular seu filho na escola de
             educação infantil Estrelas do Amanhã.
@@ -36,15 +36,15 @@
                 <label for="fullname">Nome completo</label>
                 <input
                   id="fullname"
-                  type="text"
                   name="fullname"
+                  type="text"
                   placeholder="Qual o nome da criança"
                 />
               </div>
 
               <div class="input-wrapper">
                 <label for="birth">Data de nascimento</label>
-                <input type="date" id="birth" name="birth" lang="pt-br" />
+                <input type="date" name="birth" id="birth" lang="pt-BR" />
               </div>
 
               <div class="select-wrapper">
@@ -52,7 +52,7 @@
                 <select name="gender" id="gender">
                   <option value="female">Feminino</option>
                   <option value="male">Masculino</option>
-                  <option value="na">Prefiro nãõ responder</option>
+                  <option value="na">Prefiro não responder</option>
                 </select>
               </div>
 
@@ -62,16 +62,16 @@
                   name="medical-info"
                   id="medical-info"
                   cols="30"
-                  rows="6"
-                  placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (se sim , especifique)"
+                  rows="5"
+                  placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"
                 ></textarea>
               </div>
 
               <div class="droparea-wrapper">
-                <label for="birth-file">Certidão de nascimento</label>
+                <label for="birth-file">Certidão de Nascimento</label>
 
                 <div class="dropzone">
-                  <input type="file" id="birth" name="birth" />
+                  <input type="file" id="birth-file" name="birth-file" />
                   <svg
                     width="48"
                     height="48"
@@ -94,7 +94,6 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-
                   <p>
                     Clique aqui para <br />
                     selecionar os arquivos
@@ -104,7 +103,8 @@
             </fieldset>
 
             <fieldset class="address">
-              <legend>Endereço resedencial</legend>
+              <legend>Endereço residencial</legend>
+
               <div class="input-wrapper">
                 <label for="cep">CEP</label>
                 <input type="text" id="cep" name="cep" />
@@ -115,15 +115,15 @@
                   <label for="street">Rua</label>
                   <input
                     type="text"
-                    id="rua"
-                    name="rua"
+                    id="street"
+                    name="street"
                     value="Rua das Flores"
                     disabled
                   />
                 </div>
 
                 <div class="input-wrapper flex-1">
-                  <label for="namber">Número</label>
+                  <label for="number">Número</label>
                   <input type="number" id="number" name="number" />
                 </div>
               </div>
@@ -146,8 +146,8 @@
                     type="text"
                     id="state"
                     name="state"
-                    value="SP"
                     disabled
+                    value="SP"
                   />
                 </div>
               </div>
@@ -168,8 +168,8 @@
                 <label for="phone">Telefone</label>
                 <input
                   type="text"
-                  name="phone"
                   id="phone"
+                  name="phone"
                   placeholder="(10) 9 8765-4321"
                 />
               </div>
@@ -189,7 +189,6 @@
 
             <fieldset class="enroll-options">
               <legend>Opções de matrícula</legend>
-
               <div class="input-wrapper">
                 <label>Selecione o turno de estudo</label>
 
@@ -202,12 +201,14 @@
                       value="morning"
                       id="morning"
                     />
-                    <img src="assets/icons/sun-cloud-02.svg" alt="Manhã" />
+                    <img
+                      src="assets/icons/sun-cloud-02.svg"
+                      alt="ícone de sol com nuvem"
+                    />
                     <label for="morning">Manhã</label>
                   </div>
-                </div>
 
-                 <div class="radio-inner">
+                  <div class="radio-inner">
                     <div class="radio-image"></div>
                     <input
                       type="radio"
@@ -215,7 +216,7 @@
                       value="evening"
                       id="evening"
                     />
-                    <img src="assets/icons/sun--02.svg" alt="Manhã" />
+                    <img src="assets/icons/sun-02.svg" alt="ícone de sol" />
                     <label for="evening">Tarde</label>
                   </div>
                 </div>
@@ -228,8 +229,12 @@
       <aside>
         <div class="aside-container">
           <header>
-            <img src="/assets/img/logo.svg" alt="" />
-            <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+            <img src="/assets/img/logo.svg" alt="Logo Estrelas do Amanhã" />
+            <h2>
+              Porque cada momento de
+              <span> aprendizado </span>
+              conta
+            </h2>
             <p>
               Inscreva seu filho em nossa escola e veja-o florescer em um
               ambiente acolhedor, seguro e estimulante.
@@ -238,7 +243,7 @@
 
           <img
             src="/assets/img/Illustration.svg"
-            alt="ilustração de uma professora com criança"
+            alt="Ilustração de um professora com crianças prestando atenção"
           />
         </div>
       </aside>
