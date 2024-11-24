@@ -1,4 +1,4 @@
-<h1 align="center"> Formúlario de matrícula </h1>
+<h1 align="center"> Formulário de matrícula </h1>
 
 <p align="center">
 Programa exclusivo promovido pela Rocketseat para ensino de tecnologias WEB.
@@ -20,7 +20,7 @@ Programa exclusivo promovido pela Rocketseat para ensino de tecnologias WEB.
 <br>
 
 <p align="center">
- Formúlario de matrícula
+ Formalário de matrícula
 </p>
 
 <p align="center">
