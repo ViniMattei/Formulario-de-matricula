@@ -50,3 +50,66 @@ img {
 .flex-2 {
   flex: 2;
 }
+
+@media (max-width: 768px) {
+  #app {
+    display: grid;
+
+    & main {
+      margin-top: 360px;
+      padding: 1.5rem;
+      width: 100vh;
+      max-width: 22.5rem;
+    }
+
+    & label {
+      text-align: left;
+    }
+  }
+
+  form {
+    .action-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & button {
+      display: flex;
+      justify-content: center;
+    }
+
+    & .btn-secondary {
+      width: 100%;
+      max-width: 265px;
+    }
+  }
+
+  aside {
+    position: absolute; /* Ativa o position absolute */
+    top: 0;
+    left: 0;
+    width: 100%; /* Define largura fixa */
+
+    & img:nth-child(1) {
+      width: 163px;
+    }
+
+    & img:nth-child(1) {
+      width: 19.5rem;
+    }
+  }
+
+  .aside-container {
+    & h2 {
+      display: none;
+    }
+
+    & p {
+      display: none;
+    }
+  }
+
+  form {
+    width: 100%;
+  }
+}
